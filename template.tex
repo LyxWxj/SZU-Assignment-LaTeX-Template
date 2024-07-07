@@ -1,0 +1,104 @@
+% !TeX program = xelatex
+\documentclass[UTF8]{ctexart}
+
+\usepackage{pgfplots}
+\usepackage{ctex}
+\usepackage{tikz,tikz-3dplot}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+\usepackage[lmargin=2.5cm,rmargin=2.5cm,tmargin=2.8cm,bmargin=3cm]{geometry}
+\CTEXsetup[format={\Large\bfseries}]{section}
+
+\pagestyle{plain}
+\ctexset{
+ abstractname = {摘要},
+ bibname = {参考文献}
+}
+
+\setlength{\parindent}{2.5em}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{positioning,arrows.meta,quotes}
+\usetikzlibrary{shapes,snakes}
+
+\tikzset{>=latex}
+
+\begin{document}
+
+\bibliographystyle{plain}
+\linespread{1.1666}
+
+
+\begin{center}
+
+    \huge{深圳大学考试答题纸} \\
+    \vspace{0.2cm} 
+    \normalsize{(以论文、报告等形式考核专用)} \\
+    \vspace{0.2cm}
+
+\large{二○ \underline{\quad 二三 \quad } ～二○  \underline{\quad 二四\quad } \, 学年度第  \underline{\, 二 \,}   学期}
+\end{center} 
+\vspace{0.02cm}
+\large{
+    课程编号\underline{} 课序号 \underline{\quad} 
+    课程名称 \underline{\,\,} 讲教师 \underline{\,\,} 
+    评分 \underline{\quad} }
+\\
+\\
+\noindent
+\large{
+学 \qquad 号 \, \underline{ \, 2021104037 \,} \quad
+\,姓名 \, \underline{\;  \; } 
+\,专业年级 \quad \underline{ \qquad  \qquad}\\
+}
+
+\noindent\fbox{%
+    \begin{minipage}{\textwidth}
+    教师评语：
+    \\
+    \\
+    \\
+    \\
+    \\
+    \end{minipage}
+}
+
+\vspace{0.29cm}
+\noindent
+题目: 
+\begin{center}
+
+\underline{\qquad \qquad \textbf{\heiti  } \qquad \qquad}
+
+\end{center}
+
+
+\newpage
+
+\begin{center}
+
+\underline{\qquad \qquad \textbf{\heiti  } \qquad \qquad}
+
+\end{center}
+\fangsong
+\begin{center}
+    {\heiti 摘要}
+\end{center}
+\par
+
+
+\section{问题介绍}
+
+
+\section{问题分析}
+
+
+
+\bibliography{ref.bib}
+\end{document}
+
